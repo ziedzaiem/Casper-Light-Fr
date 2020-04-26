@@ -1,6 +1,6 @@
 # Casper Light Fr
 
-A french 🇫🇷 translated light theme for [Ghost](http://github.com/tryghost/ghost/) based on [Caper](https://github.com/TryGhost/Casper).
+A french 🇫🇷 translated light theme for [Ghost](http://github.com/tryghost/ghost/) based on [Casper](https://github.com/TryGhost/Casper).
 
 ## Note
 
