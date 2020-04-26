@@ -6,8 +6,8 @@ A french 🇫🇷 translated light theme for [Ghost](http://github.com/tryghost/
 
 Personal links to other social accounts are added to the following files :
 
-- default.hbs
-- partials/site-nav.hbs
+- [default.hbs](default.hbs#L40)
+- [partials/site-nav.hbs](partials/site-nav.hbs#L32)
 
 You should delete theme if you want to use these theme.
 
@@ -48,7 +48,7 @@ Launch Ghost with nodemon :
 nodemon current/index.js --watch content/themes/Casper-Light-Fr --ext hbs,js,css
 ```
 
-### Use Yarn to run development server
+### Run development server
 
 Casper-Light-Fr styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
 
@@ -62,7 +62,7 @@ yarn dev
 
 Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
 
-### compile the theme
+### Compile the theme
 
 The `zip` Gulp task packages the theme files into `dist/<theme-name>.zip`, which you can then upload to your site.
 
@@ -71,7 +71,7 @@ The `zip` Gulp task packages the theme files into `dist/<theme-name>.zip`, which
 yarn zip
 ```
 
-## Validate Theme
+## Validate the theme
 
 Use [gscan](https://github.com/TryGhost/gscan) to checks for errors and feature support :
 
@@ -83,7 +83,7 @@ gscan . --verbose -3
 
 The following icons are made by [iconmonstr](https://iconmonstr.com/) :
 
-- partials/github.hbs
-- partials/gmail.hbs
-- partials/instagram.hbs
-- partials/linkedin.hbs
+- [partials/github.hbs](partials/github.hbs)
+- [partials/gmail.hbs](partials/gmail.hbs)
+- [partials/instagram.hbs](partials/instagram.hbs)
+- [partials/linkedin.hbs](partials/linkedin.hbs)
