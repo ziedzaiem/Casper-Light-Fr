@@ -4,13 +4,13 @@ A french 🇫🇷 translated light theme for [Ghost](http://github.com/tryghost/
 
 ## Screenshots
 
-`![](Screenshots/homepage.png | width=200)`
+<img src="https://raw.githubusercontent.com/ziedzaiem/Casper-Light-Fr/master/Screenshots/homepage.png" width="100" alt="homepage.png" />
 
-`![](Screenshots/post.png | width=200)`
+<img src="https://raw.githubusercontent.com/ziedzaiem/Casper-Light-Fr/master/Screenshots/post.png" width="100" alt="post.png" />
 
-`![](Screenshots/author.png | width=200)`
+<img src="https://raw.githubusercontent.com/ziedzaiem/Casper-Light-Fr/master/Screenshots/author.png" width="100" alt="author.png" />
 
-`![](Screenshots/tag.png | width=200)`
+<img src="https://raw.githubusercontent.com/ziedzaiem/Casper-Light-Fr/master/Screenshots/tag.png" width="100" alt="tag.png" />
 
 ## Download
 
