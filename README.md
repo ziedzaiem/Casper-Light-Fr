@@ -4,13 +4,13 @@ A french 🇫🇷 translated light theme for [Ghost](http://github.com/tryghost/
 
 ## Screenshots
 
-![](Screenshots/homepage.png | width=100)
+`![](Screenshots/homepage.png | width=200)`
 
-![](Screenshots/post.png | width=200)
+`![](Screenshots/post.png | width=200)`
 
-![](Screenshots/author.png | width=200)
+`![](Screenshots/author.png | width=200)`
 
-![](Screenshots/tag.png | width=200)
+`![](Screenshots/tag.png | width=200)`
 
 ## Download
 
