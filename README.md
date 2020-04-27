@@ -2,6 +2,20 @@
 
 A french 🇫🇷 translated light theme for [Ghost](http://github.com/tryghost/ghost/) based on [Casper](https://github.com/TryGhost/Casper).
 
+## Screenshots
+
+![](Screenshots/homepage.png | width=100)
+
+![](Screenshots/post.png | width=200)
+
+![](Screenshots/author.png | width=200)
+
+![](Screenshots/tag.png | width=200)
+
+## Download
+
+Get the last release from the [releases tab](https://github.com/ziedzaiem/Casper-Light-Fr/releases).
+
 ## Note
 
 Personal links to other social accounts are added to the following files :
@@ -9,7 +23,7 @@ Personal links to other social accounts are added to the following files :
 - [default.hbs](default.hbs#L40)
 - [partials/site-nav.hbs](partials/site-nav.hbs#L32)
 
-You should delete theme if you want to use these theme.
+You should delete theme if you want to compile thes theme yourself. They have been deleted from the release.
 
 ## Local Development
 
