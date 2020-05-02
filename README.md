@@ -1,6 +1,9 @@
-# Casper Light Fr
+# Casper Light Fr 
+
+[![Known Vulnerabilities](https://snyk.io/test/github/ziedzaiem/Casper-Light-Fr/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ziedzaiem/Casper-Light-Fr?targetFile=package.json)
 
 A french 🇫🇷 translated light theme for [Ghost](http://github.com/tryghost/ghost/) based on [Casper](https://github.com/TryGhost/Casper).
+
 
 ## Screenshots
 
