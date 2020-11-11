@@ -105,3 +105,14 @@ The following icons are made by [iconmonstr](https://iconmonstr.com/) :
 - [partials/gmail.hbs](partials/gmail.hbs)
 - [partials/instagram.hbs](partials/instagram.hbs)
 - [partials/linkedin.hbs](partials/linkedin.hbs)
+
+
+## How to compare with original project
+
+```
+git remote add -f casper https://github.com/TryGhost/Casper.git
+git remote update
+git diff master remotes/casper/master
+git remote rm casper
+
+```
