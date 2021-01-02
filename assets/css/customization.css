@@ -95,10 +95,6 @@ body {
     color: #767676;
 }
 
-{
-
-}
-
 /* Footer
 /* ---------------------------------------------------------- */
 
@@ -120,4 +116,86 @@ body {
 }
 .site-footer-nav a svg:hover {
     fill: #525f7f !important;
+}
+
+/* À LA UNE
+/* ---------------------------------------------------------- */
+.main-header {
+    display: inline-block;
+    width: 100%;
+}
+
+.gg-search {
+    float:right;
+}
+
+.gg-search-tag {
+    color : #3eb0ef;
+    margin: 0 0 .2em;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    float:right;
+}
+
+.gg-search-container {
+    padding-top: 2rem;
+}
+
+.gsc-control-cse {
+    padding-right: 0 !important;
+}
+/*
+.site-main {
+    z-index: 1001;
+    flex-grow: 1;
+}
+*/
+
+.a-la-une {
+    float: left;
+}
+
+.a-la-une-tag {
+    color : #3eb0ef;
+    margin: 0 0 .2em;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+}
+
+.a-la-une-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+.a-la-une-cards .card {
+    padding: 0.4rem;
+}
+
+.a-la-une-cards a{
+    color:#414141;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    transition: all .15s ease;
+    letter-spacing: .025em;
+    will-change: transform;
+    display: block;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    user-select: none;
+    border-radius: .6rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1.5rem;
 }

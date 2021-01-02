@@ -23,7 +23,7 @@ You'll notice that we *don't* use any JavaScript, or ghost_head / ghost_foot in 
                     <nav class="site-nav-center">
                         {{#if @site.logo}}
                         <a class="site-nav-logo" href="{{@site.url}}"><img src="{{img_url @site.logo size="xs"}}"
-                                alt="{{@site.title}}" /></a>
+                                alt="{{@site.title}}" loading="lazy" /></a>
                         {{else}}
                         <a class="site-nav-logo" href="{{@site.url}}">{{@site.title}}</a>
                         {{/if}}

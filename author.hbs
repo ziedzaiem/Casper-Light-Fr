@@ -11,7 +11,7 @@
         <div class="inner">
             <div class="site-header-content author-header">
                 {{#if profile_image}}
-                    <img class="author-profile-image" src="{{profile_image}}" alt="{{name}}" />
+                    <img class="author-profile-image" src="{{profile_image}}" alt="{{name}}" loading="lazy" />
                 {{else}}
                     <span class="author-profile-image">{{> "icons/avatar"}}</span>
                 {{/if}}
@@ -28,13 +28,13 @@
                             {{plural ../pagination.total empty='Pas de publications' singular='% publication' plural='% publications'}}
                         </div>
                         {{#if website}}
-                            <span class="author-social-link"><a href="{{website}}" target="_blank" rel="noopener">Website</a></span>
+                            <span class="author-social-link"><a href="{{website}}" target="_blank" rel="noopener">Site Web</a></span>
                         {{/if}}
                         {{#if twitter}}
-                            <span class="author-social-link"><a href="{{twitter_url}}" target="_blank" rel="noopener">Twitter</a></span>
+                            <span class="author-social-link"><a href="{{twitter_url}}" target="_blank" rel="noopener noreferrer">Twitter</a></span>
                         {{/if}}
                         {{#if facebook}}
-                            <span class="author-social-link"><a href="{{facebook_url}}" target="_blank" rel="noopener">Facebook</a></span>
+                            <span class="author-social-link"><a href="{{facebook_url}}" target="_blank" rel="noopener noreferrer">Facebook</a></span>
                         {{/if}}
                     </div>
                 </div>
@@ -58,4 +58,11 @@
         </div>
 
     </div>
+    
+    {{!-- @TODO : DELETE THIS --}}
+    <hr style="margin:1em 0 1em"/>
+    <div>
+        <div class="gcse-search"></div>
+    </div>
+    <hr style="margin:1em 0 1em"/>
 </main>

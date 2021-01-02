@@ -41,7 +41,7 @@ into the {body} of the default.hbs template --}}
 
                                 <div class="author-card">
                                     {{#if profile_image}}
-                                    <img class="author-profile-image" src="{{img_url profile_image size="xs"}}" alt="{{name}}" />
+                                    <img class="author-profile-image" src="{{img_url profile_image size="xs"}}" alt="{{name}}" loading="lazy" />
                                     {{else}}
                                     <div class="author-profile-image">{{> "icons/avatar"}}</div>
                                     {{/if}}
@@ -50,18 +50,18 @@ into the {body} of the default.hbs template --}}
                                         <div class="bio">
                                             <h2>{{name}}</h2>
                                             <p>{{bio}}</p>
-                                            <p><a href="{{url}}">Plus de publications </a> par {{name}}.</p>
+                                            <p><a href="{{url}}">Plus de publications </a> de {{name}}.</p>
                                         </div>
                                         {{else}}
                                         <h2>{{name}}</h2>
-                                        <p>Lire <a href="{{url}}">plus de publications</a> par cet auteur.</p>
+                                        <p>Lire <a href="{{url}}">plus de publications</a> de cet auteur.</p>
                                         {{/if}}
                                     </div>
                                 </div>
 
                                 {{#if profile_image}}
                                 <a href="{{url}}" class="author-avatar">
-                                    <img class="author-profile-image" src="{{img_url profile_image size="xs"}}" alt="{{name}}" />
+                                    <img class="author-profile-image" src="{{img_url profile_image size="xs"}}" alt="{{name}}" loading="lazy" />
                                 </a>
                                 {{else}}
                                 <a href="{{url}}" class="author-avatar author-profile-image">{{> "icons/avatar"}}</a>
@@ -99,6 +99,7 @@ into the {body} of the default.hbs template --}}
                             2000px"
                     src="{{img_url feature_image size="xl"}}"
                     alt="{{title}}"
+                    loading="lazy"
                 />
             </figure>
             {{/if}}
@@ -114,14 +115,22 @@ into the {body} of the default.hbs template --}}
                 {{> subscribe-form}}
             {{/if}}
 
+            {{!-- Comments --}}
+            {{!-- @TODO : DELETE THIS --}}
+
             <section class="post-full-comments">
-                <script src="https://utteranc.es/client.js"
+                <script src="https://utterances.ziedzaiem.com/client.js"
                         repo="ziedzaiem/ziedzaiem.com-comments"
                         issue-term="url"
                         theme="github-light"
                         crossorigin="anonymous"
                         async>
                 </script>
+
+                <hr/>
+                <div>
+                    <div class="gcse-search"></div>
+                </div>
             </section>
 
         </article>

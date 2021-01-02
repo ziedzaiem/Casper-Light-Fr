@@ -9,12 +9,31 @@ into the {body} of the default.hbs template --}}
             <div class="site-header-content">
                 <h1 class="site-title">
                     {{#if @site.logo}}
-                        <img class="site-logo" src="{{img_url @site.logo size="l"}}" alt="{{@site.title}}" />
+                        <img class="site-logo" src="{{img_url @site.logo size="l"}}" alt="{{@site.title}}" loading="lazy" />
                     {{else}}
                         {{@site.title}}
                     {{/if}}
                 </h1>
                 <h2 class="site-description">{{@site.description}}</h2>
+                
+            </div>
+
+            {{!-- @TODO : DELETE THIS --}}
+            <div class="main-header">
+                <div class="gg-search">
+                    <div class="gg-search-tag">RECHERCHE</div>
+                    <div class="gg-search-container">
+                        <div class="gcse-search"></div>
+                    </div>
+                </div>
+                <div class="a-la-une">
+                    <div class="a-la-une-tag">À LA UNE</div>
+                    <div class="a-la-une-cards">
+                        <div class="card"><a href="/tag/tech/" style="background-color: #bfdbfe;border-color: #bfdbfe; color:1e40af">👨‍💻 Tech</a></div>
+                        <div class="card"><a href="/tag/liens-de-la-semaine/" style="background-color: #bbf7d0;border-color: #bbf7d0;color:#166534">🔗 Liens de la semaine</a></div>
+                        <div class="card"><a href="/bash-snippets/" style="background-color: #fecaca;border-color: #fecaca;color:#991b1b">🐧 Bash Snippets</a></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
